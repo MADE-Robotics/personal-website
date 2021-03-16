@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #726e8f; 
+    position: sticky; 
+    top: 0;
+    padding-top: 25px;
+    height: 8vh;
+    box-shadow: 2px 2px 5px #afff9b;
+    font-family: 'Baloo Tamma 2', cursive;
+    nav {
+        display: flex;
+        align-items: center;
+
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin: .9rem;
+            a {
+                color: #e9e0f0;
+                background-image: linear-gradient(#73d95a, #73d95a), linear-gradient(#73d95a, #73d95a);
+                background-size: 0% 0.1em;
+                background-position-y: 100%;
+                background-position-x: 0%, 100%;
+                background-repeat: no-repeat;
+                transition: background-size 0.2s ease-in-out;
+                text-decoration: none;
+                }
+                a:hover,
+                a:focus,
+                a:active {
+                background-size: 100% 0.1em;
+                }                
+         
+        } 
+    }
+}
