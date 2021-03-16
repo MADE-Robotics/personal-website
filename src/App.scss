@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Syncopate&family=Syne+Mono&display=swap');
 
+
 .App {
     display: flex;
     flex-direction: column;
@@ -11,7 +12,7 @@
     scroll-behavior: smooth;    
     main {
         width: auto;
-        margin: 3rem auto;
+        margin: 3rem;
         flex-grow: 1;
         padding: 1rem;
 
