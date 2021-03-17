@@ -8,6 +8,11 @@
 
         li {
             min-width: 100px;
+            @media only screen and (max-width: 600px) {
+                    display: flex;
+                    flex-direction: column;
+
+              }
 
             a {
                 text-decoration: none;

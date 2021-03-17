@@ -6,6 +6,8 @@ import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BackToTop from 'react-back-to-top-button';
+import { Button } from 'react-bootstrap';
 
 function App() {
   return (
@@ -16,7 +18,16 @@ function App() {
         <Projects />
         <Skills /> 
         <Contact />
+
       </main>
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <Button class="btn btn-dark">Scroll Up</Button>
+      </BackToTop>
       <Footer /> 
     </div>
   );
