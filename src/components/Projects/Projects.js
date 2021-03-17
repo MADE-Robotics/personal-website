@@ -13,10 +13,8 @@ export default function Projects() {
 
 
   return (
-      
     <div id="projects" className={styles.Projects}>
         <h3>Projects</h3>
-
         <ul class="card-deck">
           <li class="card bg-dark">
             <a target="_blank" rel="noreferrer" href="https://github.com/Mheckmann7/Chat-App">

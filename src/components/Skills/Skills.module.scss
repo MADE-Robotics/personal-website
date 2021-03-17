@@ -1,15 +1,28 @@
 .Skills {
+    min-height: 100vh;
+    h3 {
+        margin: 100px;
+    }
+
+}
+.Lists {
+    h4 {
+        color: lightblue;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+      }
     ul {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         list-style: none;
+        margin: .2rem;
     
-        li {
-            margin: .9rem;
-            a {
-                text-decoration: none;
-                color: white;
-            } 
-        } 
-    }
+        }
+
 }
+
+

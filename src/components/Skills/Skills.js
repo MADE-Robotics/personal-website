@@ -3,16 +3,18 @@ import * as styles from './Skills.module.scss';
 
 export default function Skills() {
     return (
-      <div id="skills" className={styles.Skills}>
+      <div id="skills" className={styles.Skills} >
         <h3>Skills</h3>
-        <h4>Languages</h4>
+      <div className={styles.Lists}>
         <ul>
+        <h4>Languages</h4>
           <li>JavaScript</li>
           <li>Python</li>
           <li>C#</li>
         </ul>
-        <h4>Libraries/Frameworks</h4>
+
         <ul>
+        <h4>Libraries/Frameworks</h4>
           <li>React</li>
           <li>React Native</li>
           <li>Django</li>
@@ -21,8 +23,9 @@ export default function Skills() {
           <li>Express.js</li>
           <li>jQuery</li>
         </ul>
-        <h4>Other</h4>
+
         <ul>
+        <h4>Other</h4>
           <li>MongoDB</li>
           <li>GraphQL</li>
           <li>PostgreSQL</li>
@@ -33,7 +36,7 @@ export default function Skills() {
           <li>Unity</li>
           <li>Unreal Engine</li>
         </ul>
-       
+        </div>
        
       </div>
       

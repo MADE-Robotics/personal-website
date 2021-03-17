@@ -1,11 +1,17 @@
 .Projects {
+    min-height: 100vh;
+    h3 {
+        margin: 100px;
+    }
+
     ul {
 
         li {
+            min-width: 100px;
 
             a {
                 text-decoration: none;
-  
+          
                 
             } &:hover {
                 text-shadow: 2px 2px 5px #82c272;

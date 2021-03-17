@@ -8,16 +8,16 @@ export default function Header() {
             <nav>
             <ul>
                 <li>
-                <AnchorLink href="#about">About</AnchorLink>
+                <AnchorLink offset='100' href="#about">About</AnchorLink>
                 </li>
                 <li>
-                <AnchorLink href="#projects">Projects</AnchorLink>
+                <AnchorLink offset='100' href="#projects">Projects</AnchorLink>
                 </li>
                 <li>
-                <AnchorLink href="#skills" >Skills</AnchorLink>  
+                <AnchorLink offset='100' href="#skills" >Skills</AnchorLink>  
                 </li>
                 <li>
-                <AnchorLink href="#contact">Contact</AnchorLink>   
+                <AnchorLink offset='100' href="#contact">Contact</AnchorLink>   
                 </li>
             </ul>
 
