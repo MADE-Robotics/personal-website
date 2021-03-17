@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className={styles.Header}>
             <nav>
-            <ul>
+            
                 <li>
                 <AnchorLink offset='100' href="#about">About</AnchorLink>
                 </li>
@@ -19,7 +19,6 @@ export default function Header() {
                 <li>
                 <AnchorLink offset='100' href="#contact">Contact</AnchorLink>   
                 </li>
-            </ul>
 
         </nav> 
         </header>

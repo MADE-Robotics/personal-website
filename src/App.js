@@ -26,7 +26,7 @@ function App() {
         speed={1500}
         easing="easeInOutQuint"
       >
-        <Button class="btn btn-dark">Scroll Up</Button>
+        <Button class="btn btn-secondary">Scroll Up</Button>
       </BackToTop>
       <Footer /> 
     </div>

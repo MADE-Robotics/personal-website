@@ -15,8 +15,8 @@ export default function Projects() {
   return (
     <div id="projects" className={styles.Projects}>
         <h3>Projects</h3>
-        <ul class="card-columns">
-          <li class="card bg-dark">
+        <div className="card-columns">
+          <li class="card bg-dark ">
             <a target="_blank" rel="noreferrer" href="https://github.com/Mheckmann7/Chat-App">
               <img class="card-img-top" src={chatApp} alt="chat app" /></a>
             <div class="card-body bg-secondary">
@@ -68,7 +68,7 @@ export default function Projects() {
               <p class="card-text text-white">A project to manually create a 3rd person controller in Unity using C#</p>
             </div>
           </li>
-          </ul>
+          </div>
 
       </div>
   )

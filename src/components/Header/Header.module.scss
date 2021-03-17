@@ -4,7 +4,6 @@
     z-index: 500;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #726e8f; 
     position: sticky; 
     top: 0;
@@ -12,21 +11,18 @@
     height: 8vh;
     box-shadow: 2px 2px 5px #afff9b;
     font-family: 'Baloo Tamma 2', cursive;
+    font-size: 24px;
     nav {
         display: flex;
-        align-items: center;
-
     }
-    ul {
-        display: flex;
-        align-items: center;
-        list-style: none;
-
         li {
+            display: flex;
+            align-items: center;
+            list-style: none;
             margin: 1rem;
             a {
                 color: #e9e0f0;
-                background-image: linear-gradient(#73d95a, #73d95a), linear-gradient(#73d95a, #73d95a);
+                background-image: linear-gradient( #afff9b,  #afff9b), linear-gradient( #afff9b,  #afff9b);
                 background-size: 0% 0.1em;
                 background-position-y: 100%;
                 background-position-x: 0%, 100%;
@@ -42,4 +38,3 @@
          
         } 
     }
-}

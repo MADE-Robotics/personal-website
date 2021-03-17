@@ -6,14 +6,14 @@ export default function Skills() {
       <div id="skills" className={styles.Skills} >
         <h3>Skills</h3>
       <div className={styles.Lists}>
-        <ul>
+        <div>
         <h4>Languages</h4>
           <li>JavaScript</li>
           <li>Python</li>
           <li>C#</li>
-        </ul>
+        </div>
 
-        <ul>
+        <div>
         <h4>Libraries/Frameworks</h4>
           <li>React</li>
           <li>React Native</li>
@@ -21,10 +21,11 @@ export default function Skills() {
           <li>GatsbyJS</li>
           <li>Bootstrap</li>
           <li>Express.js</li>
-          <li>jQuery</li>
-        </ul>
+            <li>jQuery</li>
+            <li>AWS</li>
+        </div>
 
-        <ul>
+        <div>
         <h4>Other</h4>
           <li>MongoDB</li>
           <li>GraphQL</li>
@@ -35,7 +36,7 @@ export default function Skills() {
           <li>MVC Architecture</li>
           <li>Unity</li>
           <li>Unreal Engine</li>
-        </ul>
+        </div>
         </div>
        
       </div>
