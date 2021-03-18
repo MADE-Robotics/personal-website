@@ -44,3 +44,19 @@
     }
 
 }
+
+.Hobbies {
+    background-color: #a9da9d;
+    opacity: .8;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+
+
+    li {
+        font-family: 'Baloo Tamma 2', cursive;
+        list-style: none;
+    }
+}

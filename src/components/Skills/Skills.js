@@ -10,7 +10,12 @@ export default function Skills() {
         <h4>Languages</h4>
           <li>JavaScript</li>
           <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
           <li>C#</li>
+          <li>C++</li>
+          <li>R</li>
+          <li>MatLab</li>
         </div>
 
         <div>
@@ -21,12 +26,15 @@ export default function Skills() {
           <li>GatsbyJS</li>
           <li>Bootstrap</li>
           <li>Express.js</li>
-            <li>jQuery</li>
-            <li>AWS</li>
+          <li>jQuery</li>
+
         </div>
 
         <div>
-        <h4>Other</h4>
+          <h4>Other</h4>
+          <li>AWS</li>
+          <li>OAuth</li>
+          <li>Firebase</li>
           <li>MongoDB</li>
           <li>GraphQL</li>
           <li>PostgreSQL</li>
@@ -36,6 +44,7 @@ export default function Skills() {
           <li>MVC Architecture</li>
           <li>Unity</li>
           <li>Unreal Engine</li>
+          <li>ArcGIS</li>
         </div>
         </div>
        
