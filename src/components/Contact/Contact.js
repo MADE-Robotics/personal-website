@@ -8,8 +8,9 @@ export default function Contact() {
         <p>I am currently seeking new opportunities!</p>
         <p>Located in Boston, MA or Remote</p>
         <address>
-            <p>Email: <a target="_blank" href="miraheckmann@gmail.com">miraheckmann@gmail.com</a></p>
+          <p>Email: miraheckmann@gmail.com</p>
         </address>
+
       </div>
   )
 }
